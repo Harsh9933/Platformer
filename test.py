@@ -264,11 +264,25 @@ while True:
         re_rect = end_surface.get_rect(center=(450, 300))
         screen.blit(re_surface,re_rect)
 
+        last_surface = re_font.render("(Press Return/Enter)",False,"White")
+        last_rect = last_surface.get_rect(center=(400,310))
+        screen.blit(last_surface,last_rect)
+
+
         if pygame.mouse.get_pressed()[0] and re_rect.collidepoint(pygame.mouse.get_pos()):
             game_active = True
             obstacle_rect_list = []
             player_rect.midbottom = (80, 300)
             player_gravity = 0
+
+        keys = pygame.key.get_pressed()
+
+        if keys[pygame.K_RETURN]:
+            game_active = True
+            obstacle_rect_list = []
+            player_rect.midbottom = (80, 300)
+            player_gravity = 0
+
 
 
     pygame.display.update()
