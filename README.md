@@ -10,6 +10,8 @@
    `python test.py`
    Or just simply open the `test.py` file
 
+![Game Preview](./graphics/img.png)
+
 ## Technology Stack
 - **Pygame-ce**: A Python library for creating 2D games, used for rendering, handling player input, and game mechanics in this platformer game.
 
