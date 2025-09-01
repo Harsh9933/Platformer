@@ -6,9 +6,9 @@
    To install the required Pygame-ce library, open your terminal or command prompt and run the following command:  
    `pip install pygame-ce`
 3. **Run the Game**  
-   Once Python and Pygame-ce are installed, run the game by executing the `test.py` script:  
-   `python test.py`
-   Or just simply open the `test.py` file
+   Once Python and Pygame-ce are installed, run the game by executing the `main.py` script:  
+   `python main.py`
+   Or just simply open the `main.py` file
 
 ![Game Preview](./graphics/img.png)
 
